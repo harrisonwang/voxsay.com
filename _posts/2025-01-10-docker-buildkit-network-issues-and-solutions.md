@@ -61,7 +61,7 @@ DOCKER_BUILDKIT=0 docker compose build
 
 ```Dockerfile
 FROM your-mirror-site/pytorch/torchserve:0.11.0-gpu as builder
-```：
+```
 
 ```bash
 export DOCKER_BUILDKIT=0

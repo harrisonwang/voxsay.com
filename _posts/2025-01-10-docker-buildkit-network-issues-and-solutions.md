@@ -40,6 +40,7 @@ Get "https://registry-1.docker.io/v2/": read tcp 192.168.210.99:53042->54.236.11
 ```Dockerfile
 FROM your-mirror-site/pytorch/torchserve:0.11.0-gpu as builder
 ```
+{: file="Dockerfile" }
 
 然后，通过以下命令临时禁用 BuildKit，并使用传统构建方式：
 
@@ -57,11 +58,12 @@ DOCKER_BUILDKIT=0 docker compose build
 
 #### 1.2 临时环境变量禁用 BuildKit
 
-你也可以在当前终端会话中通过设置环境变量临时禁用 BuildKit，同样，你也需要将 Dockerfile 中的基础镜像地址指向镜像代理站。例如：
+你也可以在当前终端会话中通过设置环境变量临时禁用 BuildKit，并在 Dockerfile 中的基础镜像地址指向镜像代理站。例如：
 
 ```Dockerfile
 FROM your-mirror-site/pytorch/torchserve:0.11.0-gpu as builder
 ```
+{: file="Dockerfile" }
 
 ```bash
 export DOCKER_BUILDKIT=0
@@ -101,7 +103,7 @@ docker compose build
   }
 }
 ```
-
+{: file="/etc/docker/daemon.json" }
 > 注意：Docker 支持配置镜像代理，也就是 mirror，同时也支持配置网络代理，也就是 proxy，这里的代理指的是 proxy。
 
 保存后，重启 Docker 服务使配置生效：

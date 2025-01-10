@@ -104,7 +104,9 @@ docker compose build
 }
 ```
 {: file="/etc/docker/daemon.json" }
+
 > 注意：Docker 支持配置镜像代理，也就是 mirror，同时也支持配置网络代理，也就是 proxy，这里的代理指的是 proxy。
+{: .prompt-tip }
 
 保存后，重启 Docker 服务使配置生效：
 

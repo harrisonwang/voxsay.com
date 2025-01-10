@@ -77,7 +77,7 @@ docker compose build
 
 或者直接使用 `docker compose up -d` 命令，它会拉取和构建镜像，然后启动容器。
 
-##### 1.3 永久禁用 BuildKit（不推荐）
+#### 1.3 永久禁用 BuildKit（不推荐）
 
 修改 Docker 的环境变量配置文件，永久禁用 BuildKit。虽然方便，但并不建议这样做，因为 BuildKit 目前才是官方推荐的构建工具。
 

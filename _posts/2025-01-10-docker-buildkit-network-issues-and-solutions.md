@@ -82,6 +82,7 @@ docker compose build
 修改 Docker 的环境变量配置文件，永久禁用 BuildKit。虽然方便，但并不建议这样做，因为 BuildKit 目前才是官方推荐的构建工具。
 
 > 有文章说可以通过 `"buildkit": false` 配置永久禁用，尝试后发现并没有效果。
+{: .prompt-tip }
 
 ### 方法 2：为 BuildKit 配置代理
 

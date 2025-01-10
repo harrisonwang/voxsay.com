@@ -57,7 +57,11 @@ DOCKER_BUILDKIT=0 docker compose build
 
 #### 1.2 临时环境变量禁用 BuildKit
 
-你也可以在当前终端会话中通过设置环境变量临时禁用 BuildKit：
+你也可以在当前终端会话中通过设置环境变量临时禁用 BuildKit，同样，你也需要将 Dockerfile 中的基础镜像地址指向镜像代理站。例如：
+
+```Dockerfile
+FROM your-mirror-site/pytorch/torchserve:0.11.0-gpu as builder
+```：
 
 ```bash
 export DOCKER_BUILDKIT=0

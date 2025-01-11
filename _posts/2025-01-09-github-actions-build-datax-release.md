@@ -34,7 +34,7 @@ cd DataX
 为了确保在任何环境下都能使用指定版本的 Maven，我们为项目添加 Maven Wrapper。执行以下命令：
 
 ```bash
-mvn -N io.takari:maven:wrapper -Dmaven=3.5.4
+mvn -Dmaven=3.5.4
 ```
 
 这将在项目中生成 `.mvn` 目录和 `mvnw` 脚本，确保使用 Maven 3.5.4 进行构建。
@@ -97,10 +97,10 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref_name }}
-          release_name: "Release ${{ github.ref_name }}"
+          tag_name: \${{ github.ref_name }}
+          release_name: "Release \${{ github.ref_name }}"
           body: |
             此版本包含最新构建的 DataX 包。
           draft: false
@@ -109,10 +109,10 @@ jobs:
       - name: 上传 Release 资产到 GitHub
         uses: svenstaro/upload-release-action@v2
         with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: \${{ secrets.GITHUB_TOKEN }}
           file: datax.tar.xz
           asset_name: datax.tar.xz
-          tag: ${{ github.ref_name }}
+          tag: \${{ github.ref_name }}
 ```
 
 > **注意**：选择 `tar.xz` 格式是因为 GitHub 对每个 Release 中的单个文件大小限制为 2 GiB，而 `tar.gz` 压缩后的文件约为 2.2G，超过限制。使用 `tar.xz` 压缩后，文件大小约为 1.64G，符合要求。

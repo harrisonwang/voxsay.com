@@ -43,6 +43,7 @@ mvn -Dmaven=3.5.4
 
 在项目根目录下，创建 `.github/workflows` 目录，并在其中添加 `release.yml` 文件，内容如下：
 
+{% raw %}
 ```yaml
 name: Build and Release DataX
 
@@ -97,10 +98,10 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: \${{ github.ref_name }}
-          release_name: "Release \${{ github.ref_name }}"
+          tag_name: ${{ github.ref_name }}
+          release_name: "Release ${{ github.ref_name }}"
           body: |
             此版本包含最新构建的 DataX 包。
           draft: false
@@ -109,13 +110,15 @@ jobs:
       - name: 上传 Release 资产到 GitHub
         uses: svenstaro/upload-release-action@v2
         with:
-          repo_token: \${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: datax.tar.xz
           asset_name: datax.tar.xz
-          tag: \${{ github.ref_name }}
+          tag: ${{ github.ref_name }}
 ```
+{% endraw %}
 
 > **注意**：选择 `tar.xz` 格式是因为 GitHub 对每个 Release 中的单个文件大小限制为 2 GiB，而 `tar.gz` 压缩后的文件约为 2.2G，超过限制。使用 `tar.xz` 压缩后，文件大小约为 1.64G，符合要求。
+{: .prompt-tip }
 
 ## 步骤四：创建标签并推送
 

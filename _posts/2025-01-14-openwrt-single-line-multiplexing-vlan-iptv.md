@@ -162,12 +162,11 @@ flowchart LR
 
 ![OpenWrt IPTV 接口配置界面](/img/openwrt-iptv-interface.webp){: .shadow}
 
-### 步骤4：配置 br-lan 接口
+### 步骤4：配置 br-lan 网桥设备	
 
-编辑 `br-lan` 接口，取消勾选 `LAN5`，避免多余桥接减少不必要的广播流量，如下图所示：
+编辑 `br-lan` 网桥设备，取消勾选 `LAN5`，避免多余桥接，减少不必要的广播流量，如下图所示：
 
 ![OpenWrt 网桥设备配置界面](/img/Snipaste_2025-01-14_21-05-42.webp){: .shadow}
-
 
 ### 步骤5：重启路由器
 

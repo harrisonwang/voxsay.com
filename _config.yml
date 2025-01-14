@@ -139,6 +139,7 @@ comments:
 assets:
   self_host:
     enabled: true # boolean, keep empty means false
+    # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development | production]
@@ -218,9 +219,9 @@ exclude:
   - tools
   - README.md
   - LICENSE
-  - "*.config.js"
-  - package*.json
-  - Dockerfile
+  - purgecss.js
+  - rollup.config.js
+  - "package*.json"
 
 jekyll-archives:
   enabled: [categories, tags]

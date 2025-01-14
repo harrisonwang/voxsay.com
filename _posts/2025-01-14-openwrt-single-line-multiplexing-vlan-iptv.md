@@ -132,9 +132,12 @@ flowchart LR
 - 基础设备：选择 `eth1`
 - VLAN ID：输入 `45`
 
+> 在实际配置时，请根据您的具体网络环境（如 VLAN ID）调整相关参数。
+{: .prompt-tip }
+
 设备名将自动设置为 `eth1.45`，如下图所示：
 
-![OpenWrt VLAN 设备配置界面](/img/openwrt-vlan-device.png){: .shadow}
+![OpenWrt VLAN 设备配置界面](/img/openwrt-vlan-device.webp){: .shadow}
 
 ### 步骤2：创建网桥设备
 
@@ -144,12 +147,9 @@ flowchart LR
 - 设备名称：输入 `br-iptv`
 - 网桥端口：勾选 `eth1.45` 和 `lan5`
 
-> 在实际配置时，请根据您的具体网络环境（如 VLAN ID）调整相关参数。
-{: .prompt-tip }
-
 如下图所示：
 
-![OpenWrt 网桥设备配置界面](/img/openwrt-bridge-device.png){: .shadow}
+![OpenWrt 网桥设备配置界面](/img/openwrt-bridge-device.webp){: .shadow}
 
 ### 步骤3：创建 IPTV 接口
 
@@ -160,13 +160,14 @@ flowchart LR
 
 配置如下图所示：
 
-![OpenWrt IPTV 接口配置界面](/img/openwrt-iptv-interface.png){: .shadow}
+![OpenWrt IPTV 接口配置界面](/img/openwrt-iptv-interface.webp){: .shadow}
 
 ### 步骤4：配置 br-lan 接口
 
 编辑 `br-lan` 接口，取消勾选 `LAN5`，避免多余桥接减少不必要的广播流量，如下图所示：
 
-TODO
+![OpenWrt 网桥设备配置界面](/img/Snipaste_2025-01-14_21-05-42.webp){: .shadow}
+
 
 ### 步骤5：重启路由器
 

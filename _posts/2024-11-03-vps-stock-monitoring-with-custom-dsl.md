@@ -4,7 +4,7 @@ date: 2024-11-03 19:58:00 +0800
 last_modified_at: 2024-11-03 19:58:00 +0800
 tags:
 - DSL
-- vps
+- VPS
 title: 如何基于自定义 DSL 构建 VPS 库存监控任务
 ---
 

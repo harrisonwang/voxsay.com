@@ -3,7 +3,7 @@ categories: [操作系统, Linux]
 date: 2023-12-13 15:02:00 +0800
 last_modified_at: 2023-12-23 10:15:00 +0800
 tags:
-- jekyll
+- Jekyll
 - Huxpro
 - GitHub
 title: 如何基于 Huxpro 搭建个人 GitHub 博客网站？

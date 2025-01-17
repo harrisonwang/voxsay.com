@@ -206,7 +206,7 @@ flowchart LR
 
 ### 3. 光猫如何改桥接模式？
 
-电信光猫已经不需要手动修改了，默认就包含了桥接模式（2_INTERNET_B_VID_）和路由模式（5_INTERNET_R_VID_）的连接。只需要将路由器 WAN 接口修改为 PPPoE 协议，输入宽带上网账号和密码即可。
+当前电信光猫已经不需要手动修改了，默认就包含了桥接模式（`2_INTERNET_B_VID_`）和路由模式（`5_INTERNET_R_VID_`）的连接。只需要将路由器 WAN 接口修改为 PPPoE 协议，输入宽带上网账号和密码即可。
 
 - `2_INTERNET_B_VID_`：桥接模式的连接，这里的 B 表示 Bridge。
 - `5_INTERNET_R_VID_`：路由模式的连接，这里的 R 表示 Route。

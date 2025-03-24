@@ -1,0 +1,102 @@
+# voxsay.com llms.txt
+
+> VoxSay is a comprehensive tech blog that provides insights, tutorials, and guides on various technology topics, including programming, system administration, and web development. The website features categorized content, allowing users to easily navigate through a variety of subjects, as well as a collection of posts that cover practical implementations and detailed explanations of modern technologies.
+
+## URLs
+
+- [Home](https://voxsay.com/): The main landing page of the blog.
+- [About](https://voxsay.com/about/): A page providing information about the blog and its objectives.
+- [Archives](https://voxsay.com/archives/): A collection of all past posts organized for easy browsing.
+- [Categories](https://voxsay.com/categories/): A page listing all categories for organizing blog posts.
+- [云盘](https://voxsay.com/categories/%E4%BA%91%E7%9B%98/): Category focused on cloud technologies.
+- [人工智能](https://voxsay.com/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/): Category dedicated to artificial intelligence topics.
+- [办公](https://voxsay.com/categories/%E5%8A%9E%E5%85%AC/): Category covering office technologies and tools.
+- [启动盘](https://voxsay.com/categories/%E5%90%AF%E5%8A%A8%E7%9B%98/): Category related to startup technologies.
+- [建站](https://voxsay.com/categories/%E5%BB%BA%E7%AB%99/): Category focused on website building and management.
+- [操作系统](https://voxsay.com/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/): Category covering operating systems.
+- [编程语言](https://voxsay.com/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/): Category dedicated to programming languages.
+- [网站安全](https://voxsay.com/categories/%E7%BD%91%E7%AB%99%E5%AE%89%E5%85%A8/): Category focused on website security topics.
+- [计算机网络](https://voxsay.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/): Category covering computer networking.
+- [DNS](https://voxsay.com/categories/dns/): Category focused on DNS technologies and practices.
+- [Java](https://voxsay.com/categories/java/): Category dedicated to Java programming and resources.
+- [Linux](https://voxsay.com/categories/linux/): Category covering Linux operating system topics and tutorials.
+- [LLM](https://voxsay.com/categories/llm/): Category focused on large language models and their applications.
+- [Node.js](https://voxsay.com/categories/node-js/): Category dedicated to Node.js programming and frameworks.
+- [OpenWrt](https://voxsay.com/categories/openwrt/): Category covering OpenWrt and router technologies.
+- [Shell](https://voxsay.com/categories/shell/): Category focused on shell scripting and command-line tools.
+- [Windows](https://voxsay.com/categories/windows/): Category covering Windows operating system topics.
+- [Build App with Dify LLM](https://voxsay.com/posts/build-app-with-dify-llm/): Tutorial on building applications using Dify and large language models.
+- [Build Electron WebP Converter with Cursor](https://voxsay.com/posts/build-electron-webp-converter-with-cursor/): Guide for creating a WebP converter using Electron.
+- [Build Memos Service Using Serv00.com](https://voxsay.com/posts/build-memos-service-using-serv00.com/): Instructions for creating a memos service.
+- [Build Short Link Service with Cloudflare Pages](https://voxsay.com/posts/build-short-link-service-with-cloudflare-pages/): Tutorial on deploying a short link service on Cloudflare Pages.
+- [Bypass DNS Block Unregistered Domains to Domestic Cloud](https://voxsay.com/posts/bypass-dns-block-unregistered-domains-to-domestic-cloud/): Guide on bypassing DNS restrictions.
+- [China Docker Registry Proxy Guide](https://voxsay.com/posts/china-docker-registry-proxy-guide/): Instructions for setting up a Docker proxy registry in China.
+- [Deploy Jekyll Blog Using Cloudflare Pages](https://voxsay.com/posts/deploy-jekyll-blog-using-cloudflare-pages/): Tutorial on deploying a Jekyll blog with Cloudflare Pages.
+- [Docker BuildKit Network Issues and Solutions](https://voxsay.com/posts/docker-buildkit-network-issues-and-solutions/): Discussion of common Docker BuildKit networking problems.
+- [Getting Started of Spring Native](https://voxsay.com/posts/getting-started-of-spring-native/): Introduction to Spring Native for Java developers.
+- [Getting Started of Vercel Serverless Functions](https://voxsay.com/posts/getting-started-of-vercel-serverless-functions/): Guide for using serverless functions on Vercel.
+- [GitHub Actions Build DataX Release](https://voxsay.com/posts/github-actions-build-datax-release/): Instructions for automating DataX releases with GitHub Actions.
+- [Home Computer Can Also Play with Large Model](https://voxsay.com/posts/home-computer-can-also-play-with-large-model/): Insights on running large models on personal computers.
+- [How Does Internet Work?](https://voxsay.com/posts/how-does-internet-work/): Explanation of internet fundamentals.
+- [How to Apply for a Free SSL Certificate Using acme.sh](https://voxsay.com/posts/how-to-apply-for-a-free-ssl-certificate-using-acme.sh/): Step-by-step guide to obtaining free SSL certificates.
+- [How to Build Docker Hub Mirror with Cloudflare Workers](https://voxsay.com/posts/how-to-build-docker-hub-mirror-with-cloudflare-workers/): Tutorial on creating a Docker Hub mirror using Cloudflare Workers.
+- [How to Build Google Custom Search Engine Step by Step](https://voxsay.com/posts/how-to-build-google-custom-search-engine-step-by-step/): Guide on setting up a custom Google search engine.
+- [How to Build Your Own ChatGPT with Gemini API](https://voxsay.com/posts/how-to-build-your-own-chatgpt-with-gemini-api/): Instructions for developing a ChatGPT-like application using the Gemini API.
+- [How to Build Your Own GitHub Blog Site with Huxpro](https://voxsay.com/posts/how-to-build-your-own-github-blog-site-with-huxpro/): Tutorial on creating a GitHub-hosted blog site.
+- [How to Create a Multiboot USB Drive Using Ventoy](https://voxsay.com/posts/how-to-create-a-multiboot-usb-drive-using-ventoy/): Guide on making a multiboot USB drive with Ventoy.
+- [How to Elegantly Convert DTOs](https://voxsay.com/posts/how-to-elegantly-convert-dtos/): Techniques for converting Data Transfer Objects (DTOs).
+- [How to Install and Configure OnlyOffice on CentOS 7](https://voxsay.com/posts/how-to-install-and-configure-onlyoffice-on-centos-7/): Instructions for setting up OnlyOffice on CentOS 7.
+- [How to Install and Configure OwnCloud on CentOS 7](https://voxsay.com/posts/how-to-install-and-configure-owncloud-on-centos-7/): Guide for installing OwnCloud on CentOS 7.
+- [How to Install CUDA on Ubuntu 22.04](https://voxsay.com/posts/how-to-install-cuda-on-ubuntu-22.04/): Step-by-step instructions for installing CUDA on Ubuntu 22.04.
+- [How to Publish NPM to GPR on GitHub Packages](https://voxsay.com/posts/how-to-publish-npm-to-gpr-on-github-packages/): Tutorial on publishing NPM packages to GitHub Packages.
+- [How to Quickly Resolve Chrome Dangerous Website Warning](https://voxsay.com/posts/how-to-quickly-resolve-chrome-dangerous-website-warning/): Solutions for handling Chrome's dangerous website warnings. ```
+- [How to Share File on Windows 11](https://voxsay.com/posts/how-to-share-file-on-windows-11/): A guide on sharing files seamlessly using Windows 11, covering various methods and settings.
+- [How to Use Aria2 to Replace Thunder and Break Download Restrictions](https://voxsay.com/posts/how-to-use-aria2-to-replace-thunder-and-break-download-restrictions/): Instructions on utilizing Aria2 as an alternative to Thunder for unrestricted downloading.
+- [How to Use ChatGPT App on Mobile in China](https://voxsay.com/posts/how-to-use-chatgpt-app-on-mobile-in-china/): Steps to access and use the ChatGPT mobile app in China despite restrictions.
+- [How to Use V2Ray to Access the Internet Friendly](https://voxsay.com/posts/how-to-use-v2ray-to-access-the-internet-friendly/): A tutorial on configuring V2Ray for secure and friendly internet access.
+- [Next.js OpenAI Function Calling Guide](https://voxsay.com/posts/nextjs-openai-function-calling-guide/): A comprehensive guide on integrating OpenAI function calling in Next.js applications.
+- [OpenWRT Single Line Multiplexing VLAN IPTV](https://voxsay.com/posts/openwrt-single-line-multiplexing-vlan-iptv/): Instructions for setting up VLAN IPTV using OpenWRT for efficient network management.
+- [Set Up a Personal Cloud Server with Nextcloud](https://voxsay.com/posts/set-up-a-personal-cloud-server-with-nextcloud/): A step-by-step guide to creating your own personal cloud server using Nextcloud.
+- [Share ChatGPT Plus Account](https://voxsay.com/posts/share-chatgpt-plus-account/): Information on sharing a ChatGPT Plus account and its benefits.
+- [Share Local Application to Internet Using Ngrok Proxy](https://voxsay.com/posts/share-local-application-to-internet-using-ngrok-proxy/): Guide on using Ngrok to expose local applications to the internet securely.
+- [Use X-UI and Xray for Internet Access](https://voxsay.com/posts/use-x-ui-and-xray-for-internet-access/): Instructions for setting up X-UI and Xray to gain unrestricted internet access.
+- [Using Cloudflare Worker Proxy GitHub](https://voxsay.com/posts/using-cloudflare-worker-proxy-github/): Tutorial on using Cloudflare Workers to create a proxy for GitHub access.
+- [Using Cloudflare Worker Proxy Google](https://voxsay.com/posts/using-cloudflare-worker-proxy-google/): Instructions for configuring a Cloudflare Worker to proxy Google services.
+- [Using Cloudflare Workers Build Proxy for Internet Access](https://voxsay.com/posts/using-cloudflare-workers-build-proxy-for-internet-access/): Guide on building a proxy using Cloudflare Workers for enhanced internet access.
+- [Using Hysteria Build Proxy for Internet Access](https://voxsay.com/posts/using-hysteria-build-proxy-for-internet-access/): Steps to set up a proxy with Hysteria for unrestricted internet access.
+- [Using Telegraph and Cloudflare to Build Your Own Image Hosting Platform](https://voxsay.com/posts/using-telegraph-and-cloudflare-to-build-your-own-image-hosting-platform/): Instructions for creating a personal image hosting platform using Telegraph and Cloudflare.
+- [V2Ray Combined with WS and TLS for Internet Access](https://voxsay.com/posts/v2ray-combined-with-ws-and-tls-for-internet-access/): Guide on combining V2Ray with WebSocket and TLS for enhanced internet access security.
+- [VPS Stock Monitoring with Custom DSL](https://voxsay.com/posts/vps-stock-monitoring-with-custom-dsl/): Tutorial on monitoring VPS stocks using a custom Domain-Specific Language (DSL).
+- [Windows Router Sharing Proxy Guide](https://voxsay.com/posts/windows-router-sharing-proxy-guide/): Steps for configuring a Windows router to share a proxy connection effectively. ### Tags
+- [Tags Overview](https://voxsay.com/tags/): A comprehensive list of tags used across the blog for easy navigation.
+- [云盘](https://voxsay.com/tags/%E4%BA%91%E7%9B%98/): Tag related to cloud storage services.
+- [互联网](https://voxsay.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/): Tag focused on internet-related topics.
+- [代理](https://voxsay.com/tags/%E4%BB%A3%E7%90%86/): Tag covering proxy services and configurations.
+- [共享](https://voxsay.com/tags/%E5%85%B1%E4%BA%AB/): Tag related to sharing technologies and services.
+- [函数调用](https://voxsay.com/tags/%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8/): Tag focused on function calling in programming.
+- [办公](https://voxsay.com/tags/%E5%8A%9E%E5%85%AC/): Tag related to office software and productivity tools.
+- [单线复用](https://voxsay.com/tags/%E5%8D%95%E7%BA%BF%E5%A4%8D%E7%94%A8/): Tag covering single line multiplexing topics.
+- [启动盘](https://voxsay.com/tags/%E5%90%AF%E5%8A%A8%E7%9B%98/): Tag related to boot disks and operating system installations.
+- [图床](https://voxsay.com/tags/%E5%9B%BE%E5%BA%8A/): Tag focused on image hosting platforms.
+- [搬瓦工](https://voxsay.com/tags/%E6%90%AC%E7%93%A6%E5%B7%A5/): Tag related to specific hosting services, likely referencing "搬瓦工" (a VPS provider).
+- [操作系统](https://voxsay.com/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/): Tag covering various operating systems.
+- [科学上网](https://voxsay.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/): Tag focused on scientific internet access methods.
+- [网站安全](https://voxsay.com/tags/%E7%BD%91%E7%AB%99%E5%AE%89%E5%85%A8/): Tag related to website security practices.
+- [迅雷](https://voxsay.com/tags/%E8%BF%85%E9%9B%B7/): Tag covering topics related to the Thunder download manager.
+- [透明代理](https://voxsay.com/tags/%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86/): Tag focused on transparent proxy techniques.
+- [镜像代理](https://voxsay.com/tags/%E9%95%9C%E5%83%8F%E4%BB%A3%E7%90%86/): Tag covering mirror proxy services.
+- [acme.sh](https://voxsay.com/tags/acme-sh/): Tag related to the acme.sh script for managing SSL certificates.
+- [ar-i-ang](https://voxsay.com/tags/ar-i-ang/): A tag likely related to a specific tool or framework, details unspecified.
+- [aria2](https://voxsay.com/tags/aria2/): Tag focused on the Aria2 download utility.
+- [centos](https://voxsay.com/tags/centos/): Tag related to the CentOS operating system.
+- [chatgpt-4](https://voxsay.com/tags/chatgpt-4/): Tag covering topics specific to ChatGPT-4.
+- [chatgpt-plus](https://voxsay.com/tags/chatgpt-plus/): Tag related to ChatGPT Plus features and usage.
+- [chatgpt](https://voxsay.com/tags/chatgpt/): General tag for all ChatGPT-related topics.
+- [chirpy](https://voxsay.com/tags/chirpy/): Tag likely focused on a specific application or tool named Chirpy.
+- [chrome](https://voxsay.com/tags/chrome/): Tag covering topics related to the Google Chrome browser.
+- [ci-cd](https://voxsay.com/tags/ci-cd/): Tag focusing on Continuous Integration and Continuous Deployment practices.
+- [cloudflare-pages](https://voxsay.com/tags/cloudflare-pages/): Tag related to Cloudflare Pages, a platform for deploying websites.
+- [cloudflare](https://voxsay.com/tags/cloudflare/): Tag covering all topics related to Cloudflare services.
+- [cloudflared](https://voxsay.com/tags/cloudflared/): Tag focused on the cloudflared tool for tunneling.
+- [cuda](https://voxsay.com/tags/cuda/): Tag related to NVIDIA's CUDA platform for parallel computing.
+- [cursor](https://voxsay.com/tags/cursor/): Tag likely covering topics related to cursors in user interfaces or programming. Feel free to let me know if you need any changes or additional information!

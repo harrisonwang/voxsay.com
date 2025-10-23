@@ -6,7 +6,7 @@ order: 4
 
 ## 关于博主
 
-网名小王爷，80 后，程序员，爱好“上网冲浪”，研究 GitHub 上各类开源好玩的项目。
+网名小王爷，80 后，程序员，爱好上网冲浪，研究 GitHub 上各类开源好玩的项目。
 
 ## 关于博客
 
@@ -17,24 +17,6 @@ order: 4
 ## 博客内容
 
 以编程、建站、科学上网、AI 等技术为主，分享博客文章。
-
-## 工具站
-
-- [x.voxsay.com](https://x.voxsay.com)：个人专属备忘录，基于 [memos](https://github.com/usememos/memos) 构建。
-- [chat.voxsay.com](https://chat.voxsay.com)：个人专属 ChatGPT，支持 GPT 模型，基于 [Vercel](https://vercel.com/) 和 [Vercel ai-chatbot](https://github.com/vercel/ai-chatbot) 构建。
-- [t.voxsay.com](https://t.voxsay.com)：短网址生成器，基于 [Vercel](https://vercel.com/) 和 [Supabase](https://supabase.com/) 构建。
-- [s.voxsay.com](https://s.voxsay.com)：个人专属搜索引擎，基于 [Google Custom Search Engine](https://programmablesearchengine.google.com/controlpanel/all) 和 [luxify-search](https://github.com/harrisonwang/luxify-search) 构建。
-- [avatar.voxsay.com](https://avatar.voxsay.com)：Notion 风格头像生成器，基于 [Vercel](https://vercel.com/) 和 [notion-avatar](https://github.com/harrisonwang/notion-avatar) 构建。
-- [img.voxsay.com](https://img.voxsay.com)：个人专属图床，基于 [Cloudflare Pages](https://pages.cloudflare.com/) 和 [Telegraph](https://telegra.ph/) 构建。
-- [md.voxsay.com](https://md.voxsay.com)：markdown 在线编辑器，支持一键拷贝内容到微信公众号、知乎和稀土掘金。
-- [wb.voxsay.com](https://wb.voxsay.com)：一款手绘风格的白板工具，基于 excalidraw 和 Cloudflare Pages 构建。
-
-## CN2 GIA VPS 推荐
-
-| 供应商 |   方案名称   |            主机配置            |   价格   |                           购买链接                           |   优惠码   |
-| :----: | :----------: | :----------------------------: | :------: | :----------------------------------------------------------: | :--------: |
-| 搬瓦工 | The DC9 Plan | 1C768MB, 15G, 750G/月, 1.5Gbps |  $38/年  | [购买链接](https://bandwagonhost.com/cart.php?a=add&pid=145) | BWHCCNCXVV |
-|  DMIT  | LAX.Pro.WEE  |  1C1G, 20G, 500G/月, 500Mbps   | $36.9/年 |    [购买链接](https://www.dmit.io/cart.php?a=add&pid=183)    |    暂无    |
 
 ## 结语
 

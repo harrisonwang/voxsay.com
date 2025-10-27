@@ -1,14 +1,14 @@
 #  The contact options.
 
-- type: TILs
-  icon: "fas fa-book"
-  url: https://til.voxsay.com
+# - type: TILs
+#   icon: "fas fa-book"
+#   url: https://til.voxsay.com
 
 - type: github
   icon: "fab fa-github"
 
-# - type: twitter
-#   icon: "fa-brands fa-x-twitter"
+- type: twitter
+  icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
@@ -33,7 +33,7 @@
 #
 # - type: bluesky
 #   icon: 'fa-brands fa-bluesky'
-#   url: ''                   # Fill with your Bluesky profile link
+#   url: 'https://bsky.app/profile/voxsay.com'
 #
 # - type: reddit
 #   icon: 'fa-brands fa-reddit'
